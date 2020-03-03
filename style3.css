@@ -1,0 +1,564 @@
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+
+
+
+
+
+
+
+body {
+     
+
+    background-color: black;
+
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%; 
+    height: 100vh;
+    background-position: 30% 45%;
+
+
+    padding: 310px 0;
+
+
+    
+
+
+    text-align: left;
+	font-family: 'Montserrat', sans-serif;
+
+	overflow-x:hidden;
+
+
+}
+
+
+
+
+
+
+.navegation {
+	font-size: 20px;
+	color: white;
+	margin-top: -300px;
+	height: 50px;
+
+		
+
+	animation-name: navegacao;
+	animation-duration: 3s;
+
+
+
+}
+
+.navegation ul {
+	list-style: none;
+
+	margin-top: 0;
+	padding-left: 0;
+	
+	text-align: right;
+	height: 50px;
+
+	text-decoration: none;
+
+
+}
+
+.navegation li {
+	display: inline-block;
+
+	padding-left: 30px;
+	padding-right: 30px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 19px;
+	font-weight: 100;
+
+	text-decoration: none;
+}
+
+.navegation a {
+	text-decoration: none;
+	color: white;
+}
+
+.navegation a:hover {
+	color: #ffff47;
+}
+
+.navegation li.menu {
+	display: none;
+
+}
+
+.navegation li.menu:hover {
+	color:#ffff47;
+	cursor: pointer;
+}
+
+.navegation span {
+	color: #ffff47;
+}
+
+
+
+
+.profile-pic {
+	text-align: center;
+	width: 40%; 40
+	background-color: yellow;
+	margin-top: -180px;
+
+	animation-name: profile-capa;
+	animation-duration: 2s;
+
+}
+
+.profile-pic img {
+   width: 350px;
+   border-radius: 350px;
+}
+
+
+
+
+
+
+.profile-title {
+	vertical-align: top;
+	width: 59%;
+	margin-top: -120px; 60
+	background-color: red;
+
+	animation-name: titulo-capa;
+	animation-duration: 2s;
+
+}
+
+.profile-title h1 {
+	text-transform: uppercase;
+	margin-left: -20px;
+	font-weight: 100;
+	line-height: 58px;
+	font-weight: 900;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 58px;
+
+}
+
+.profile-title h2 {
+	font-size: 17px;
+	margin-top: -30px;
+	margin-bottom: 10px;
+	margin-left: 80px;
+	font-weight: 400;
+
+}
+
+.profile-title span {
+	color: #FFC914;
+	margin-left: 8px;
+}
+
+
+
+
+
+
+
+.capa div {
+	display: inline-block;
+	height: 650px; 
+}
+
+.capa {
+	color: white;
+	text-align: left;
+	margin-top: -60px; 
+	
+	height: 650px; 
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%; 
+    height: 100vh;
+    background-position: 30% 45%;
+    padding: 310px 0;
+
+
+
+
+
+
+  animation-name: titulo-capa;
+  animation-duration: 2s;
+
+}
+
+    
+
+
+.capa p {
+  width: 400px;
+  margin-left: 20px;
+  margin-top: -285px; 
+  color: white;
+  font-size: 17px;
+  text-align: justify;
+  font-weight: 300;
+
+
+  animation-name: titulo-capa;
+  animation-duration: 2s;
+
+}
+
+
+
+
+.perfS {
+	text-align: center;
+	width: 40%; 
+	
+}
+
+
+
+.sobre {
+	background-color: #FFC914;
+	font-size: 20px;
+	text-align: center;
+	height: 600px;
+	margin-top: -590px;
+
+
+
+}
+
+.sobre h1 {
+	color: black;
+	text-align: center;
+	margin-left: 330px;
+	padding-top: 70px;
+	font-size: 24px;
+}
+
+.sobre p {
+	text-align: justify;
+	width: 600px;
+	margin-left: 600px;
+	line-height: 30px;
+	margin-top: -410px;
+	color: black;
+	font-weight: 400;
+	font-family: 'Courier Prime', monospace;
+
+	
+}
+
+.perfS img {
+
+	
+	margin-right: 500px;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	width: 350px;
+    border-radius: 350px;
+
+    margin-left: 80px;
+
+
+
+   
+
+}
+
+
+
+@keyframes conteudo {
+	0% {opacity: 0; transform: translate(-20px,0px)}
+	100% {opacity: 1; transform: translate (0px,0px);}
+}
+
+
+
+@keyframes profile-capa {
+	0% {opacity: 0; transform: translate(0px,20px)}
+	100% {opacity: 1; transform: translate (0px,0px);}
+}
+
+
+@keyframes titulo-capa {
+	0% {opacity: 0; transform: translate(0px,-20px)}
+	100% {opacity: 1; transform: translate (0px,0px);}
+}
+
+
+@keyframes navegacao {
+	0% {opacity: 0;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+
+}
+
+
+
+@media (max-width: 1000px) {
+
+.navegation li {
+	display: none;
+
+	font-size: 25px;
+
+	margin-left: 100%;
+
+	text-align: center;
+
+}
+
+
+.navegation li.menu {
+	display:inline-block;
+
+}
+
+
+   .capa {
+   	margin-top: -150px;  
+   	height: 300px; 
+
+   	width: 100%;
+
+   	text-align: left;
+   	padding-right: 20%;
+   	padding-left: 5%; 
+
+
+
+}
+
+ 	.capa div {
+	display: block;
+	height: auto; 
+}
+
+
+.capa p {
+  width: 400px;
+  margin-left: 20px;
+  margin-top: 120px;
+  color: white;
+  font-size: 18px; 
+  text-align: justify;
+  font-weight: 300; 
+
+  margin-right: auto;
+  
+
+}
+
+
+
+
+  .profile-pic {
+  	width: 420px;
+  	text-align: center;
+  	margin-left: 0px; 
+  	margin-right: 50px; 
+
+
+}
+
+  .profile-title {
+  	width: 100%; 	
+  	
+  	text-align: center;
+}
+
+.profile-pic img {
+	margin-top: 60px; 
+	max-width: 80%;
+	margin-left: 0;
+	margin-right: 10px;
+
+	animation-name: conteudo;
+	animation-duration: 3s;
+
+
+
+
+
+
+}
+
+.profile-title h1 {
+	text-transform: uppercase;
+	margin-top: 140px; 
+	margin-left: 40px;
+	margin-right: 0px;
+	font-weight: 900;
+	line-height: 58px;
+	font-family: 'Press Start 2P', cursive;
+	font-size:40px; 
+
+
+}
+
+.profile-title span {
+	color: #FFC914;
+	margin-left: 8px;
+	margin-top: 100px;
+}
+
+
+
+.profile-title h2 {
+	font-size: 18px; 17
+	margin-top: -10px;
+	margin-bottom: 10px;
+	margin-left:56px;
+	margin-right: -5px;
+	text-align: center;
+	font-weight: 100;
+
+ }
+
+
+
+
+
+
+
+
+  .sobre {
+    width: 100%;
+  	margin-top: -20px;
+  	
+  
+
+  	text-align: left;
+   	padding-right: 20%;
+   	padding-left: 5%;
+
+   	margin-right: 0;
+
+   	height: 800px;
+    
+
+
+ } 
+
+ .text {
+ 	width: 100px;
+
+ 	margin-right: 0;
+ }
+ 
+   .sobre h1 {
+	color: black;
+	text-align: center;
+	margin-left: 80px;
+	padding-top: 70px;
+	font-size: 24px;
+   
+ }
+
+
+ .perfS img {
+    margin-top: 40px;
+	margin-left: 0px;
+	margin-right: -270px;
+	margin-bottom: 100px;
+	
+	width: 320px; 
+    border-radius: 350px;
+
+    animation-name: conteudo;
+	animation-duration: 3s;
+
+
+   
+  }
+
+  .sobre p {
+  	
+  font-family: 'Courier Prime', monospace;
+
+  width: 400px;
+  margin-left: 10px;
+  margin-top: -50px;
+  color: black;
+  font-size: 20px; 
+  text-align: justify;
+  font-weight: 300; 
+
+  margin-right: auto;
+
+  line-height: 30px;
+
+  animation-name: conteudo;
+	animation-duration: 3s;
+   
+   }
+
+
+ .menujs {
+  
+  height: 410px;
+
+}
+
+
+ .menujs ul {
+
+	height: 410px;
+
+	
+
+
+	padding-left: 25%;
+
+	margin-right: 60%;
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+	
+
+
+ }
+
+
+.menujs li {
+
+	display: block;
+
+	font-size: 27px;
+
+
+
+	
+	
+ }
+
+
+
+
+
+}
